@@ -1,0 +1,112 @@
+body {
+    max-width: 800px;
+    min-width: 380px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+section {
+    background-color: #146f80;
+    padding: 10px 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+}
+
+section p#paragrafo {
+    font-size: 22px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+}
+
+section h1 {
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.form label {
+    padding-right: 5px;
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+}
+
+.form input.campoPalpite {
+    width: 110px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-family: 'Inconsolata', monospace;
+    font-size: 17px;
+    padding: 3px 3px;
+    font-weight: bold;
+}
+
+.form input.campoPalpite:focus {
+    font-family: 'Inconsolata', monospace;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 1s;
+    background-color: rgb(168, 168, 162);
+}
+
+.form input.botao {
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    padding: 3px 5px;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.form input.botao:focus {
+    transition: 1s;
+    background-color: rgb(168, 168, 162);
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: #101010;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+footer p a.aLink {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+footer p a.aLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer a.aLink {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+footer a.aLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    cursor: pointer;
+}
